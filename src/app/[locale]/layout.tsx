@@ -8,18 +8,22 @@ import { CartProvider } from "@/components/CartContext";
 
 type Props = {
   children: React.ReactNode;
-  params: { locale: "ar" | "en" | "fr" };
+  params: Promise<{ locale: "ar" | "en" | "fr" }>;
 };
 
-export default function LocaleLayout({ children, params }: Props) {
-  const locale = params.locale; 
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale } = await params; // ✅ يجب انتظار params هنا
 
   // تحقق من وجود الترجمة
   if (!messages[locale]) {
     notFound();
   }
 
-  console.log("available messages keys for locale", locale, Object.keys(messages[locale] || {}));
+  console.log(
+    "available messages keys for locale",
+    locale,
+    Object.keys(messages[locale] || {})
+  );
 
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>

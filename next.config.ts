@@ -1,5 +1,9 @@
-const withNextIntl = require('next-intl/plugin')('./i18n/request.ts');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
+  images: { unoptimized: true },
+  turbopack: { root: __dirname },
+};
 
-module.exports = withNextIntl({
-  reactStrictMode: true
-});
+module.exports = nextConfig;

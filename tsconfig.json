@@ -29,9 +29,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "messages/**/*.ts",       // 👈 أضف هذا
+    "messages/**/*.ts",
     "next-intl.config.ts",
-    "src/types/next-auth.d.ts"    // 👈 وأضف هذا
+    "src/types/next-auth.d.ts"
   ],
   "exclude": ["node_modules"]
 }
