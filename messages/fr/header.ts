@@ -1,0 +1,60 @@
+export default {
+  header: {
+    home: "Accueil",
+    products: "Produits",
+    about: "À propos",
+    contact: "Contactez-nous",
+    dashboard: "Tableau de bord",
+    account: "Mon compte",
+    search: "Rechercher un produit...",
+    language: "Langue",
+    cart: "Panier",
+    notifications: "Notifications",
+    theme: "Thème",
+    light: "Clair",
+    dark: "Sombre",
+    system: "Système",
+    login: "Connexion",
+    logout: "Déconnexion",
+    toggleTheme: "Changer le thème",
+    profile: "Mon profil",
+    editProfile: "Modifier le profil",
+    myOrders: "Mes commandes",
+
+    notif: {
+      newProduct: "🎉 Nouveau produit ajouté",
+      orderProcessing: "✅ Votre commande est en cours",
+      discount: "⚡ 20% de réduction sur l’électronique",
+      ago5min: "il y a 5 minutes",
+      ago1h: "il y a 1 heure",
+      today: "Aujourd’hui",
+    },
+  },
+
+  notifications: {
+    title: "Notifications",
+    markAll: "Tout marquer comme lu",
+    clearAll: "Tout effacer",
+    noNotifications: "Aucune nouvelle notification",
+    viewAll: "Voir tout",
+  },
+
+  cart: {
+    title: "Panier",
+    empty: "Votre panier est vide",
+    subtotal: "Sous-total",
+    total: "Total",
+    checkout: "Paiement",
+    remove: "Retirer",
+    quantity: "Quantité",
+    continueShopping: "Continuer vos achats",
+    items: {
+      airpods: "AirPods Pro",
+      macbook: "MacBook Pro",
+    },
+    messages: {
+      removed: "Produit retiré",
+      cleared: "Panier vidé",
+    },
+  },
+};

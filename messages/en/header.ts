@@ -1,0 +1,60 @@
+export default {
+  header: {
+    home: "Home",
+    products: "Products",
+    about: "About Us",
+    contact: "Contact Us",
+    dashboard: "Dashboard",
+    account: "My Account",
+    search: "Search for a product...",
+    language: "Language",
+    cart: "Shopping Cart",
+    notifications: "Notifications",
+    theme: "Theme",
+    light: "Light",
+    dark: "Dark",
+    system: "System",
+    login: "Login",
+    logout: "Logout",
+    toggleTheme: "Toggle Theme",
+    profile: "My Profile",
+    editProfile: "Edit Profile",
+    myOrders: "My Orders",
+
+    notif: {
+      newProduct: "🎉 New product added",
+      orderProcessing: "✅ Your order is being processed",
+      discount: "⚡ 20% off electronics",
+      ago5min: "5 minutes ago",
+      ago1h: "1 hour ago",
+      today: "Today",
+    },
+  },
+
+  notifications: {
+    title: "Notifications",
+    markAll: "Mark all as read",
+    clearAll: "Clear all",
+    noNotifications: "No new notifications",
+    viewAll: "View all",
+  },
+
+  cart: {
+    title: "Shopping Cart",
+    empty: "Your cart is empty",
+    subtotal: "Subtotal",
+    total: "Total",
+    checkout: "Checkout",
+    remove: "Remove",
+    quantity: "Quantity",
+    continueShopping: "Continue Shopping",
+    items: {
+      airpods: "AirPods Pro",
+      macbook: "MacBook Pro",
+    },
+    messages: {
+      removed: "Product removed",
+      cleared: "Cart cleared",
+    },
+  },
+};
